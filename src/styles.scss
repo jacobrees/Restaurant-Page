@@ -36,3 +36,23 @@ body {
 .nav-active {
   color: $red-color;
 }
+
+.home-jumbotron {
+  margin-top: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-jumbotron-text {
+  width: 40%;
+  color: white;
+}
+
+.home-jumbotron-title {
+  font-size: 75px;
+}
+
+.home-jumbotron-img {
+  width: 40%;
+}
