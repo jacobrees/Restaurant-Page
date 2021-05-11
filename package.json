@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/jacobrees/Restaurant-Page#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "*",
     "css-loader": "^5.2.4",
     "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
     "sass-loader": "^11.0.1",
     "webpack": "^5.36.2",
