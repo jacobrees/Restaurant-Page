@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+body {
+  background-color: #f6be37; }
+
+.content {
+  width: 100%; }
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 75px; }
+
+.nav-option {
+  font-size: 15px;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+  font-weight: bold; }
+
+.nav-active {
+  color: #e6272d; }
+
+.home-jumbotron {
+  margin-top: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.home-jumbotron-text-section {
+  width: 40%;
+  color: white; }
+
+.home-jumbotron-title {
+  font-size: 75px; }
+
+.home-jumbotron-img-section {
+  width: 40%;
+  position: relative;
+  text-align: center; }
+
+.home-jumbotron-img {
+  width: 100%;
+  border-radius: 25px; }
+
+.home-jumbotron-img-attribute {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  color: white;
+  background-color: #00000096; }
+
