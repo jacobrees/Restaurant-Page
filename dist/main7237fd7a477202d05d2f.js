@@ -16,7 +16,7 @@
   \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8598148452dfdb988fc0e340a7977742.jpg\");\n\n//# sourceURL=webpack://restaurant-page/./src/img/front-view-burger-stand.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"imgs/front-view-burger-stand.8598148452dfdb988fc0e340a7977742.jpg\");\n\n//# sourceURL=webpack://restaurant-page/./src/img/front-view-burger-stand.jpg?");
 
 /***/ }),
 
