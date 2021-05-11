@@ -1,6 +1,6 @@
 import './styles.scss';
 
-import burgerImg from './img/front-view-burger-stand.jpg';
+import burgerImg from './imgs/front-view-burger-stand.jpg';
 
 const content = document.querySelector('#content');
 

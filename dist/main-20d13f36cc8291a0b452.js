@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/img/front-view-burger-stand.jpg":
-/*!*********************************************!*\
-  !*** ./src/img/front-view-burger-stand.jpg ***!
-  \*********************************************/
+/***/ "./src/imgs/front-view-burger-stand.jpg":
+/*!**********************************************!*\
+  !*** ./src/imgs/front-view-burger-stand.jpg ***!
+  \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"imgs/front-view-burger-stand.8598148452dfdb988fc0e340a7977742.jpg\");\n\n//# sourceURL=webpack://restaurant-page/./src/img/front-view-burger-stand.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"imgs/front-view-burger-stand-8598148452dfdb988fc0e340a7977742.jpg\");\n\n//# sourceURL=webpack://restaurant-page/./src/imgs/front-view-burger-stand.jpg?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _img_front_view_burger_stand_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/front-view-burger-stand.jpg */ \"./src/img/front-view-burger-stand.jpg\");\n\n\n\n\nconst content = document.querySelector('#content');\n\ncontent.innerHTML = `<header class=\"nav\">\n<p class=\"nav-option nav-active\">HOME</p>\n<p class=\"nav-option\">ABOUT</p>\n<p class=\"nav-option\">MENU</p>\n<p class=\"nav-option\">CONTACT</p>\n</header>\n<div class=\"home-jumbotron\">\n<div class=\"home-jumbotron-text-section\">\n    <h2 class=\"home-jumbotron-title\">BOBS <br>BURGER <br>JOINT</h2>\n</div>\n<div class=\"home-jumbotron-img-section\">\n    <img  class=\"home-jumbotron-img\" src=${_img_front_view_burger_stand_jpg__WEBPACK_IMPORTED_MODULE_1__.default} alt=\"front-view-burger\">\n    <a class=\"home-jumbotron-img-attribute\" href='https://www.freepik.com/photos/food'>Food photo created by stockking - www.freepik.com</a>\n</div>\n</div>`;\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _imgs_front_view_burger_stand_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/front-view-burger-stand.jpg */ \"./src/imgs/front-view-burger-stand.jpg\");\n\n\n\n\nconst content = document.querySelector('#content');\n\ncontent.innerHTML = `<header class=\"nav\">\n<p class=\"nav-option nav-active\">HOME</p>\n<p class=\"nav-option\">ABOUT</p>\n<p class=\"nav-option\">MENU</p>\n<p class=\"nav-option\">CONTACT</p>\n</header>\n<div class=\"home-jumbotron\">\n<div class=\"home-jumbotron-text-section\">\n    <h2 class=\"home-jumbotron-title\">BOBS <br>BURGER <br>JOINT</h2>\n</div>\n<div class=\"home-jumbotron-img-section\">\n    <img  class=\"home-jumbotron-img\" src=${_imgs_front_view_burger_stand_jpg__WEBPACK_IMPORTED_MODULE_1__.default} alt=\"front-view-burger\">\n    <a class=\"home-jumbotron-img-attribute\" href='https://www.freepik.com/photos/food'>Food photo created by stockking - www.freepik.com</a>\n</div>\n</div>`;\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ })
 

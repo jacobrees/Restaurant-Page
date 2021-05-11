@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'main[contenthash].js',
+    filename: 'main-[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
   },
   mode: 'development',
@@ -20,14 +20,14 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         use: {
           loader: 'file-loader',
-          options: { name: '[name].[hash].[ext]', outputPath: 'imgs' },
+          options: { name: '[name]-[hash].[ext]', outputPath: 'imgs' },
         },
 
       },
     ],
   },
   plugins: [
-    new MiniCssExtractPlugin({ filename: '[name][contenthash].css' }),
+    new MiniCssExtractPlugin({ filename: '[name]-[contenthash].css' }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({ template: './src/template.html' }),
   ],
