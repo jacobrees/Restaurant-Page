@@ -44,7 +44,7 @@ body {
   justify-content: center;
 }
 
-.home-jumbotron-text {
+.home-jumbotron-text-section {
   width: 40%;
   color: white;
 }
@@ -53,6 +53,21 @@ body {
   font-size: 75px;
 }
 
-.home-jumbotron-img {
+.home-jumbotron-img-section {
   width: 40%;
+  position: relative;
+  text-align: center;
+}
+
+.home-jumbotron-img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.home-jumbotron-img-attribute {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  color: white;
+  background-color: #00000096;
 }
