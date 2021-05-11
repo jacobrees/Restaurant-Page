@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 $background-color: #f6be37;
+$red-color: #E6272D;
 $font: 'Poppins', sans-serif;
 
 * {
@@ -25,7 +26,13 @@ body {
 }
 
 .nav-option {
+  font-size: 15px;
   color: white;
   margin: 20px;
   cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-active {
+  color: $red-color;
 }
