@@ -140,6 +140,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contactPage)\n/* harmony export */ });\nfunction contactPage(content) {\n  content.innerHTML = `<div class=\"about-jumbotron\">\n      <h2 class=\"about-jumbotron-title\">CONTACT</h2>\n      <p class=\"about-jumbotron-text\">Contact: info@bobsburgerjoint.com</p>\n      </div>`;\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -156,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n\n\n\n\n\nconst navBtns = document.querySelectorAll('.nav-option');\n\nnavBtns.forEach((btn) => {\n  btn.addEventListener('click', (e) => {\n    const value = e.currentTarget.dataset.id;\n    const content = document.querySelector('#content');\n    if (value === 'home') {\n      (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content);\n    } else if (value === 'about') {\n      (0,_about_js__WEBPACK_IMPORTED_MODULE_2__.default)(content);\n    } else if (value === 'menu') {\n      (0,_menu_js__WEBPACK_IMPORTED_MODULE_3__.default)(content);\n    } else if (value === 'contact') {\n      content.innerHTML = '';\n    }\n  });\n});\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n\n\n\n\n\n\nconst navBtns = document.querySelectorAll('.nav-option');\n\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content)\nlet currentPage = \"home\"\n\nnavBtns.forEach((btn) => {\n  btn.addEventListener('click', (e) => {\n    const value = e.currentTarget.dataset.id;\n    const content = document.querySelector('#content');\n    if (value === 'home' && currentPage !== value) {\n      (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content);\n      currentPage = value\n    } else if (value === 'about' && currentPage !== value) {\n      (0,_about_js__WEBPACK_IMPORTED_MODULE_2__.default)(content);\n      currentPage = value\n    } else if (value === 'menu' && currentPage !== value) {\n      (0,_menu_js__WEBPACK_IMPORTED_MODULE_3__.default)(content);\n      currentPage = value\n    } else if (value === 'contact' && currentPage !== value) {\n      (0,_contact_js__WEBPACK_IMPORTED_MODULE_4__.default)(content);\n      currentPage = value\n    }\n  });\n});\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
