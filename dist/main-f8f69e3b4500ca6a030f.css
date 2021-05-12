@@ -56,3 +56,19 @@ body {
   color: white;
   background-color: #00000096; }
 
+.about-jumbotron {
+  margin: 60px auto 0;
+  width: 80%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.356);
+  border-radius: 25px;
+  text-align: center; }
+
+.about-jumbotron-title {
+  font-size: 57px;
+  color: white; }
+
+.about-jumbotron-text {
+  color: white;
+  padding: 30px 0; }
+

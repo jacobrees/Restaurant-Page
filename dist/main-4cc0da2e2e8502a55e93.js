@@ -30,6 +30,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/about.js":
+/*!**********************!*\
+  !*** ./src/about.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ aboutPage)\n/* harmony export */ });\nfunction aboutPage(content) {\n    content.innerHTML = `<div class=\"about-jumbotron\">\n    <h2 class=\"about-jumbotron-title\">ABOUT</h2>\n    <p class=\"about-jumbotron-text\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores esse sunt enim. In ab recusandae tempora iusto debitis et saepe.</p>\n    <p class=\"about-jumbotron-text\">Contact: info@bobsburgerjoint.com</p>\n    </div>`;\n  }\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/about.js?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -46,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n\n\n\nconst navBtns = document.querySelectorAll('.nav-option');\n\nnavBtns.forEach((btn) => {\n  btn.addEventListener('click', (e) => {\n    const value = e.currentTarget.dataset.id;\n    const content = document.querySelector('#content');\n    if (value === 'home') {\n      (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content);\n    } else if (value === 'about') {\n      content.innerHTML = '';\n    } else if (value === 'menu') {\n      content.innerHTML = '';\n    } else if (value === 'contact') {\n      content.innerHTML = '';\n    }\n  });\n});\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n\n\n\n\nconst navBtns = document.querySelectorAll('.nav-option');\n\nnavBtns.forEach((btn) => {\n  btn.addEventListener('click', (e) => {\n    const value = e.currentTarget.dataset.id;\n    const content = document.querySelector('#content');\n    if (value === 'home') {\n      (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content);\n    } else if (value === 'about') {\n      (0,_about_js__WEBPACK_IMPORTED_MODULE_2__.default)(content);\n    } else if (value === 'menu') {\n      content.innerHTML = '';\n    } else if (value === 'contact') {\n      content.innerHTML = '';\n    }\n  });\n});\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ })
 

@@ -1,5 +1,6 @@
 import './styles.scss';
 import homePage from './home.js';
+import aboutPage from './about.js';
 
 const navBtns = document.querySelectorAll('.nav-option');
 
@@ -10,7 +11,7 @@ navBtns.forEach((btn) => {
     if (value === 'home') {
       homePage(content);
     } else if (value === 'about') {
-      content.innerHTML = '';
+      aboutPage(content);
     } else if (value === 'menu') {
       content.innerHTML = '';
     } else if (value === 'contact') {
