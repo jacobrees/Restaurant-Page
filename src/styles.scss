@@ -96,6 +96,27 @@ body {
   margin: 60px auto 0;
   border-radius: 25px;
   background-color: white;
-  height: 200px;
+  height: auto;
   border: 5px solid $red-color;
+}
+
+.food-items-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food-item {
+  width: 20%;
+}
+
+.food-item-title {
+  font-size: 12px;
+}
+
+.food-item-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
