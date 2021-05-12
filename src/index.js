@@ -1,21 +1,20 @@
 import './styles.scss';
+import homePage from './home.js';
 
-import burgerImg from './imgs/front-view-burger-stand.jpg';
+const navBtns = document.querySelectorAll('.nav-option');
 
-const content = document.querySelector('#content');
-
-content.innerHTML = `<header class="nav">
-<p class="nav-option nav-active">HOME</p>
-<p class="nav-option">ABOUT</p>
-<p class="nav-option">MENU</p>
-<p class="nav-option">CONTACT</p>
-</header>
-<div class="home-jumbotron">
-<div class="home-jumbotron-text-section">
-    <h2 class="home-jumbotron-title">BOBS <br>BURGER <br>JOINT</h2>
-</div>
-<div class="home-jumbotron-img-section">
-    <img  class="home-jumbotron-img" src=${burgerImg} alt="front-view-burger">
-    <a class="home-jumbotron-img-attribute" href='https://www.freepik.com/photos/food'>Food photo created by stockking - www.freepik.com</a>
-</div>
-</div>`;
+navBtns.forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    const value = e.currentTarget.dataset.id;
+    const content = document.querySelector('#content');
+    if (value === 'home') {
+      homePage(content);
+    } else if (value === 'about') {
+      content.innerHTML = '';
+    } else if (value === 'menu') {
+      content.innerHTML = '';
+    } else if (value === 'contact') {
+      content.innerHTML = '';
+    }
+  });
+});
