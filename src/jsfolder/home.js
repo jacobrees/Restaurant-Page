@@ -1,4 +1,4 @@
-import burgerImg from './imgs/front-view-burger-stand.jpg';
+import burgerImg from '../imgs/front-view-burger-stand.jpg';
 
 export default function homePage(content) {
   content.innerHTML = `<div class="home-jumbotron">

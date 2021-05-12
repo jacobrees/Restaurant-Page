@@ -1,9 +1,9 @@
 import './styles.scss';
-import homePage from './home.js';
-import aboutPage from './about.js';
-import menuPage from './menu.js';
-import contactPage from './contact.js';
-import changeTabColor from './changetabcolor.js';
+import homePage from './jsfolder/home.js';
+import aboutPage from './jsfolder/about.js';
+import menuPage from './jsfolder/menu.js';
+import contactPage from './jsfolder/contact.js';
+import changeTabColor from './jsfolder/changetabcolor.js';
 
 const content = document.querySelector('#content');
 
