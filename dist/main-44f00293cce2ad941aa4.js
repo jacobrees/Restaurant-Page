@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ aboutPage)\n/* harmony export */ });\nfunction aboutPage(content) {\n    content.innerHTML = `<div class=\"about-jumbotron\">\n    <h2 class=\"about-jumbotron-title\">ABOUT</h2>\n    <p class=\"about-jumbotron-text\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores esse sunt enim. In ab recusandae tempora iusto debitis et saepe.</p>\n    <p class=\"about-jumbotron-text\">Contact: info@bobsburgerjoint.com</p>\n    </div>`;\n  }\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ aboutPage)\n/* harmony export */ });\nfunction aboutPage(content) {\n  content.innerHTML = `<div class=\"about-jumbotron\">\n    <h2 class=\"about-jumbotron-title\">ABOUT</h2>\n    <p class=\"about-jumbotron-text\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores esse sunt enim. In ab recusandae tempora iusto debitis et saepe.</p>\n    <p class=\"about-jumbotron-text\">Contact: info@bobsburgerjoint.com</p>\n    </div>`;\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/about.js?");
 
 /***/ }),
 
