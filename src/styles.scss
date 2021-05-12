@@ -2,6 +2,7 @@
 $background-color: #f6be37;
 $red-color: #e6272d;
 $font: 'Poppins', sans-serif;
+$fade: all 0.25s ease-in-out;
 
 * {
   margin: 0;
@@ -31,6 +32,7 @@ body {
   margin: 20px;
   cursor: pointer;
   font-weight: bold;
+  transition: $fade;
 }
 
 .nav-active {

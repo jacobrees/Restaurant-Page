@@ -140,6 +140,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/changetabcolor.js":
+/*!*******************************!*\
+  !*** ./src/changetabcolor.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ changeTabColor)\n/* harmony export */ });\nfunction changeTabColor(Btns, event) {\n  Btns.forEach((btn) => {\n    btn.classList.remove('nav-active');\n  });\n  event.currentTarget.classList.add('nav-active');\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/changetabcolor.js?");
+
+/***/ }),
+
 /***/ "./src/contact.js":
 /*!************************!*\
   !*** ./src/contact.js ***!
@@ -166,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n\n\n\n\n\n\nconst navBtns = document.querySelectorAll('.nav-option');\n\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content)\nlet currentPage = \"home\"\n\nnavBtns.forEach((btn) => {\n  btn.addEventListener('click', (e) => {\n    const value = e.currentTarget.dataset.id;\n    const content = document.querySelector('#content');\n    if (value === 'home' && currentPage !== value) {\n      (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content);\n      currentPage = value\n    } else if (value === 'about' && currentPage !== value) {\n      (0,_about_js__WEBPACK_IMPORTED_MODULE_2__.default)(content);\n      currentPage = value\n    } else if (value === 'menu' && currentPage !== value) {\n      (0,_menu_js__WEBPACK_IMPORTED_MODULE_3__.default)(content);\n      currentPage = value\n    } else if (value === 'contact' && currentPage !== value) {\n      (0,_contact_js__WEBPACK_IMPORTED_MODULE_4__.default)(content);\n      currentPage = value\n    }\n  });\n});\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n/* harmony import */ var _changetabcolor_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./changetabcolor.js */ \"./src/changetabcolor.js\");\n\n\n\n\n\n\n\nconst content = document.querySelector('#content');\n\nconst navBtns = document.querySelectorAll('.nav-option');\nlet currentPage = 'home';\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content);\n\nnavBtns.forEach((btn) => {\n  btn.addEventListener('click', (e) => {\n    const value = e.currentTarget.dataset.id;\n    if (value === 'home' && currentPage !== value) {\n      (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)(content);\n      currentPage = value;\n      (0,_changetabcolor_js__WEBPACK_IMPORTED_MODULE_5__.default)(navBtns, e);\n    } else if (value === 'about' && currentPage !== value) {\n      (0,_about_js__WEBPACK_IMPORTED_MODULE_2__.default)(content);\n      currentPage = value;\n      (0,_changetabcolor_js__WEBPACK_IMPORTED_MODULE_5__.default)(navBtns, e);\n    } else if (value === 'menu' && currentPage !== value) {\n      (0,_menu_js__WEBPACK_IMPORTED_MODULE_3__.default)(content);\n      currentPage = value;\n      (0,_changetabcolor_js__WEBPACK_IMPORTED_MODULE_5__.default)(navBtns, e);\n    } else if (value === 'contact' && currentPage !== value) {\n      (0,_contact_js__WEBPACK_IMPORTED_MODULE_4__.default)(content);\n      currentPage = value;\n      (0,_changetabcolor_js__WEBPACK_IMPORTED_MODULE_5__.default)(navBtns, e);\n    }\n  });\n});\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 

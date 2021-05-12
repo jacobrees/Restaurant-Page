@@ -22,7 +22,8 @@ body {
   color: white;
   margin: 20px;
   cursor: pointer;
-  font-weight: bold; }
+  font-weight: bold;
+  transition: all 0.25s ease-in-out; }
 
 .nav-active {
   color: #e6272d; }
