@@ -15,7 +15,6 @@ export default function menuPage(content) {
   let html = '';
   html += '<div class="menu-jumbotron"><div class="food-items-container">';
 
-
   foodItems.forEach((item, index) => {
     html += `<div class="food-item">
       <h2 class="food-item-title">${item[0]}</h2>
